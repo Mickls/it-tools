@@ -25,3 +25,4 @@ EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]
 # test
 # test2
+# test3
