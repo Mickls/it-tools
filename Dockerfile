@@ -14,7 +14,7 @@ COPY . .
 ARG BASE_URL
 ENV BASE_URL=${BASE_URL}
 RUN pnpm build
-
+# sdjakl
 # production stage
 FROM nginxinc/nginx-unprivileged:stable-alpine AS production-stage
 ARG BASE_URL
