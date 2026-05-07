@@ -128,6 +128,7 @@ declare module '@vue/runtime-core' {
     DockerMemo: typeof import('./src/tools/docker-memo/docker-memo.vue')['default']
     DockerRunToDockerComposeConverter: typeof import('./src/tools/docker-run-to-docker-compose-converter/docker-run-to-docker-compose-converter.vue')['default']
     DockerRunToKubernetes: typeof import('./src/tools/docker-run-to-kubernetes/docker-run-to-kubernetes.vue')['default']
+    DoubleQuotedTextRenderer: typeof import('./src/tools/double-quoted-text-renderer/double-quoted-text-renderer.vue')['default']
     DuplicateLineFinder: typeof import('./src/tools/duplicate-line-finder/duplicate-line-finder.vue')['default']
     DurationCalculator: typeof import('./src/tools/duration-calculator/duration-calculator.vue')['default']
     DynamicValues: typeof import('./src/tools/benchmark-builder/dynamic-values.vue')['default']

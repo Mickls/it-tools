@@ -1198,3 +1198,131 @@ tools:
     title: XSLT tester
     description: Allows to test XML transformation using XSLT Stylesheets  
 
+  double-quoted-text-renderer:
+    title: Double-quoted Text Renderer
+    description: Parse a double-quoted string and render its content with proper formatting
+    input-label: Double-quoted text
+    input-placeholder: "\"Line 1\\nLine 2\""
+    output-label: Rendered text
+    error-invalid: Invalid double-quoted string
+
+  bimi-dns-generator:
+    title: BIMI DNS Generator
+    description: Generate BIMI DNS TXT record
+  bmi-calculator:
+    title: BMI Calculator
+    description: Body Mass Index calculator (US or metric units)
+  cookies-parser:
+    title: Cookies Parser
+    description: Parse Cookie HTTP header
+  cron-alarm:
+    title: Cron/Weekday Alarm
+    description: Alarm based on time and weekday expression
+  csv-to-data:
+    title: CSV to Data
+    description: Convert CSV file to JSON, YAML, CSV, SQL INSERT, XML or Markdown
+  curl-generator:
+    title: Curl Command Generator
+    description: Generate cURL command lines
+  data-faker:
+    title: Data Faker
+    description: Generate fake data using JSON templates
+  distinct-words:
+    title: Distinct Words
+    description: Extract and count occurrences of each unique word in a text
+  dkim-dns-generator:
+    title: DKIM DNS Generator
+    description: Generate DKIM DNS TXT record
+  dmarc-dns-generator:
+    title: DMARC DNS Generator
+    description: Generate DMARC DNS TXT record
+  excel-to-data:
+    title: Excel to Data
+    description: Convert XLSX file to JSON, YAML, CSV, SQL INSERT, XML or Markdown
+  extract-text-from-html:
+    title: Extract Text from HTML
+    description: Extract plain text from HTML content
+  firewalld-generator:
+    title: Firewalld Command Generator
+    description: Generate firewalld command lines
+  fortune-wheel:
+    title: Fortune Wheel
+    description: Spin a wheel to pick a random choice
+  fstab-generator:
+    title: Fstab Generator
+    description: Generate /etc/fstab line
+  git-semantic-commit-memo:
+    title: Git Semantic Commit Cheatsheet
+    description: Cheatsheet for committing using semantic prefixes
+  htaccess-generator:
+    title: HTAccess Generator
+    description: Generate .htaccess file
+  iptables-generator:
+    title: Iptables Generator
+    description: Generate iptables command lines
+  json-to-php:
+    title: JSON to PHP Code
+    description: Generate PHP classes from JSON
+  json-to-protobuf:
+    title: JSON to Protobuf
+    description: Generate Protobuf declaration from JSON objects
+  json-to-python:
+    title: JSON to Python
+    description: Convert JSON to Python classes
+  json-to-sql-ddl:
+    title: JSON to SQL DDL
+    description: JSON to SQL CREATE TABLE
+  json-to-sql-insert:
+    title: JSON to SQL INSERT
+    description: Convert JSON array to INSERT INTO
+  json-to-typescript:
+    title: JSON to TypeScript
+    description: Convert JSON to TypeScript code
+  paseto-encryption:
+    title: Paseto/PASERK Local
+    description: Generate local keys and encrypt/decrypt payloads
+  paseto-signing:
+    title: Paseto/PASERK Public/Private
+    description: Generate public/private key pairs and sign/verify payloads
+  pdf-concat:
+    title: PDF Concatenator
+    description: Concatenate PDFs into a single file
+  pdf-extract:
+    title: PDF Page Extractor
+    description: Extract a page range from a PDF
+  properties-converter:
+    title: Properties Converter
+    description: Convert Java .properties files to/from YAML
+  punycode-converter:
+    title: Punycode Converter
+    description: Convert international domain names or emails to/from ASCII Punycode
+  qr-code-decoder:
+    title: QR Code Decoder
+    description: QR Code reader
+  quote-converter:
+    title: Quote Converter
+    description: Convert quoted strings between ' and \"
+  rsync-generator:
+    title: Rsync Generator
+    description: Rsync command generator
+  spf-dns-generator:
+    title: SPF DNS Generator
+    description: Generate SPF DNS TXT record
+  sql-minifier:
+    title: SQL Minifier
+    description: Minify SQL queries
+  string-escaper:
+    title: String Escaper
+    description: Escape strings for programming languages
+  tcpdump-generator:
+    title: TCPDump Generator
+    description: Generate tcpdump command line
+  text-to-unicode-names:
+    title: Text to Unicode Names
+    description: Convert text to Unicode code points and character names
+  time-alarm:
+    title: Time Alarm
+    description: Alarm at a specific date and time
+  traefik-compose-maker:
+    title: Traefik Docker Compose Maker
+    description: Create a Docker Compose with Traefik labels for a service
